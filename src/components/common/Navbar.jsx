@@ -52,7 +52,7 @@ function Navbar() {
                                 </div>
                                 <div className='flex items-center gap-1'>
                                     <div className='flex items-center gap-2'>
-                                        <h6 className='font-normal text-[16px] leading-[150%] tracking-[0%] text-[#F5F5F5]'>John Doe</h6>
+                                        <h6 className='font-normal text-[16px] leading-[150%] tracking-[0%] text-[#F5F5F5] text-nowrap'>John Doe</h6>
                                         <div className='p-3.25 border-[1.5px] border-[#D9D9D9] rounded-[49px]'>
                                             <Icons icon={"PROFILE"} />
                                         </div>
