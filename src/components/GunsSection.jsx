@@ -7,7 +7,7 @@ function GunsSection() {
     return (
         <div className='absolute left-1/2 -translate-x-1/2 top-[145px] w-full max-[1024px]:z-10 z-50'>
             <div className='max-w-291.75 mx-auto'>
-                <div className='flex flex-row pl-[39px] pr-[24.4px] pt-[23px] pb-[33.26px] backdrop-blur-[30px] bg-[#2C1638E5] border-[1.5px] border-[#D9D9D9]/30 shadow-[10px_10px_30px_0px_rgba(0,0,0,0.6)] justify-between items-center rounded-[24px] max-[1200px]:rounded-[0px] max-[1200px]:overflow-x-auto max-[1200px]:whitespace-nowrap max-[1200px]:scrollbar-hide max-[1200px]:gap-6 w-full'>
+                <div className='flex flex-row pl-[39px] pr-[24.4px] pt-[23px] pb-[33.26px] backdrop-blur-[30px] bg-[#2C1638]  border-[1.5px] border-[#D9D9D9]/30 shadow-[10px_10px_30px_0px_rgba(0,0,0,0.6)] justify-between items-center rounded-[24px] max-[1200px]:rounded-[0px] max-[1200px]:overflow-x-auto max-[1200px]:whitespace-nowrap max-[1200px]:scrollbar-hide max-[1200px]:gap-6 w-full'>
 
                     {GUNS_DATA.map((item, i) => {
                         const isActiveCard = activeCardIndex === i;

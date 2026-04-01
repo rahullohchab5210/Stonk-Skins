@@ -8,7 +8,7 @@ function Navbar() {
     const [menuOpen, setMenuOpen] = useState(null);
     const [showGuns, setShowGuns] = useState(false);
     const [activeIndex, setActiveIndex] = useState(null);
-    
+
     useEffect(() => {
         if (menuOpen) {
             document.body.style.height = "100vh";
@@ -29,8 +29,8 @@ function Navbar() {
         <div className='  border-b border-[#FFFFFF]/[0.15] backdrop-blur-[10px] max-h-[141px]  fixed z-999 top-0 w-full'>
             <div className='max-w-287 mx-auto max-[1200px]:px-4 w-full '>
                 <div className='flex flex-rowe items-center justify-between pb-4 pt-3 w-full '>
-                    <div className='flex flex-row items-center gap-7.75 w-full '>
-                        <a href="#"> <img src="/assets/images/png/logo.png" alt="logo" className='max-w-29 max-h-13.7 z-999 flex' /></a>
+                    <div className='flex flex-row items-center gap-7.75 w-full  '>
+                        <a href="#"> <img src="/assets/images/png/logo.png" alt="logo" className='max-w-29 max-h-13.7 max-sm:z-999 flex' /></a>
                         <div className="flex items-center backgroung-img max-w-[320px] w-full h-13 max-lg:hidden">
                             <input
                                 type="text"
@@ -42,18 +42,18 @@ function Navbar() {
                             </button>
                         </div>
                     </div>
-                    <div className={`z-999 flex  flex-row items-center max-lg:flex-col max-lg:gap-4 gap-16 max-lg:flex-col  max-lg:pt-20 max-[1024px]:fixed max-[1024px]:bg-[#432755]    max-[1024px]:h-screen max-[1024px]:w-1/2 max-sm:w-full max-sm:justify-center max-[1024px]:top-0 max-[1024px]:transition-all max-[1024px]:duration-300 max-[1024px]:ease-linear ${menuOpen === "show" ? "max-[1024px]:right-0" : "max-[1024px]:-right-full"}`}>
+                    <div className={`z-60 flex  flex-row items-center max-lg:flex-col max-lg:gap-4 gap-16 max-lg:flex-col  max-lg:pt-20 max-[1024px]:fixed max-[1024px]:bg-[#432755]    max-[1024px]:h-screen max-[1024px]:w-1/2 max-sm:w-full max-sm:justify-center max-[1024px]:top-0 max-[1024px]:transition-all max-[1024px]:duration-300 max-[1024px]:ease-linear ${menuOpen === "show" ? "max-[1024px]:right-0" : "max-[1024px]:-right-full"}`}>
                         <span className='font-medium text-[16px] leading-[125%] tracking-[0.6%] text-[#F5F5F5] font-dm'>Market</span>
                         <div>
                             <div className='flex items-center max-lg:flex-col max-lg:gap-4 gap-8'>
                                 <div className='flex flex-row items-center gap-2'>
-                                       <Icons icon={'WALLET'}/>
+                                    <Icons icon={'WALLET'} />
                                     <span className='text-[#F5F5F5] font-bold text-[16px] leading-[150%] tracking-[0%]'>$0</span>
                                 </div>
                                 <div className='flex items-center gap-1'>
                                     <div className='flex items-center gap-2'>
                                         <h6 className='font-normal text-[16px] leading-[150%] tracking-[0%] text-[#F5F5F5] text-nowrap'>John Doe</h6>
-                                        <div className="h-11 w-11 bg-img flex items-center justify-center text-[#FFFFFF]">
+                                        <div className="h-11 w-11 profile-bg flex items-center justify-center text-[#FFFFFF]">
                                             <Icons icon={"PROFILE"} />
                                         </div>
                                     </div>
@@ -62,12 +62,12 @@ function Navbar() {
                             </div>
                         </div>
                     </div>
-                    <div className='flex items-center gap-2'> 
-                        <button className="flex items-center lg:hidden z-999 bg-[#FFFFFF0F]/6  rounded-[500px]">
- <Icons icon={"SEARCH"}/>
-                    </button>
-                    <button onClick={() => setMenuOpen(menuOpen === "show" ? null : "show")} className="lg:hidden flex flex-col gap-1.5 w-10 h-10 justify-center items-center z-999 cursor-pointer">
-                        <span className={`block w-7 h-0.5 rounded-[30px] bg-white transition-all duration-300 ${menuOpen === "show" ? "rotate-45 translate-y-2" : ""}`} />
+                    <div className="flex items-center  px-4 gap-[28px] w-full lg:hidden bg-[url('/assets/images/png/ellipse-three.png')] w-full max-w-[103px] h-[52px] bg-cover bg-center bg-no-repeat z-999">
+                        <button className="flex items-center   z-999 bg-[#FFFFFF0F]/6 rounded-[500px]">
+                            <Icons icon={"SEARCH"} />
+                        </button>
+                        <button onClick={() => setMenuOpen(menuOpen === "show" ? null : "show")} className="lg:hidden flex flex-col gap-1.5 w-10 h-10 justify-center items-center z-999 cursor-pointer">
+                            <span className={`block w-7 h-0.5 rounded-[30px] bg-white transition-all duration-300 ${menuOpen === "show" ? "rotate-45 translate-y-2" : ""}`} />
                             <span className={`block w-7 h-0.5 rounded-[30px] bg-white transition-all duration-300 ${menuOpen === "show" ? "opacity-0" : ""}`} />
                             <span className={`block w-7 h-0.5 rounded-[30px] bg-white transition-all duration-300 ${menuOpen === "show" ? "-rotate-45 -translate-y-2" : ""}`} />
                         </button>
@@ -75,6 +75,11 @@ function Navbar() {
                 </div>
 
                 <div className='border border-[#43344C8C] w-full'></div>
+                <div
+                    className={`fixed inset-0 bg-black/50 z-55 w-full h-screen transition-opacity duration-300 ${menuOpen ? "opacity-100 visible" : "opacity-0 invisible"
+                        }`}
+                    onClick={() => setMenuOpen(false)}
+                ></div>
             </div>
 
             {/* ✅ UPDATED LOGIC */}
@@ -90,7 +95,7 @@ function Navbar() {
                     }
                 }}
             />
-            
+
             {/* ✅ GunsSection */}
             {showGuns && (
                 <GunsSection />

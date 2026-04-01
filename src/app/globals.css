@@ -21,7 +21,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.bg-img {
+.profile-bg {
     background: url('/assets/images/png/ellipse.png');
     background-size: cover;
     background-position: center;
