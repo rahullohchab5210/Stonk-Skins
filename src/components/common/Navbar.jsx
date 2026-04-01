@@ -26,8 +26,8 @@ function Navbar() {
 
 
     return (
-        <div className='  border-b border-[#FFFFFF]/[0.15] backdrop-blur-[10px] bg-[#432755]/80 fixed z-999 top-0 w-full'>
-            <div className='max-w-287 mx-auto max-lg:px-3 w-full '>
+        <div className='  border-b border-[#FFFFFF]/[0.15] backdrop-blur-[10px] max-h-[141px]  fixed z-999 top-0 w-full'>
+            <div className='max-w-287 mx-auto max-[1200px]:px-4 w-full '>
                 <div className='flex flex-rowe items-center justify-between pb-4 pt-3 w-full '>
                     <div className='flex flex-row items-center gap-7.75 w-full '>
                         <a href="#"> <img src="/assets/images/png/logo.png" alt="logo" className='max-w-29 max-h-13.7 z-999 flex' /></a>
@@ -43,7 +43,7 @@ function Navbar() {
                         </div>
                     </div>
                     <div className={`z-999 flex  flex-row items-center max-lg:flex-col max-lg:gap-4 gap-16 max-lg:flex-col  max-lg:pt-20 max-[1024px]:fixed max-[1024px]:bg-[#432755]    max-[1024px]:h-screen max-[1024px]:w-1/2 max-sm:w-full max-sm:justify-center max-[1024px]:top-0 max-[1024px]:transition-all max-[1024px]:duration-300 max-[1024px]:ease-linear ${menuOpen === "show" ? "max-[1024px]:right-0" : "max-[1024px]:-right-full"}`}>
-                        <span className='font-medium text-[16px] leading-[125%] tracking-[0.6%] text-[#F5F5F5]'>Market</span>
+                        <span className='font-medium text-[16px] leading-[125%] tracking-[0.6%] text-[#F5F5F5] font-dm'>Market</span>
                         <div>
                             <div className='flex items-center max-lg:flex-col max-lg:gap-4 gap-8'>
                                 <div className='flex flex-row items-center gap-2'>

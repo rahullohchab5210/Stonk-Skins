@@ -54,3 +54,24 @@ export const GUNS_DATA = [
         price: "From $687.58"
     },
 ];
+
+
+
+export const RECTANGLE_HERO_DATA = [
+    {
+        title: "Fast Transactions",
+        icon:"FAST_TRANSACTIONS"
+    },
+    {
+        title: "Verified Users",
+        icon: "VERIFIED_USERS"
+    },
+    {
+        title: "24/7 Support",
+        icon: "SUPPORT"
+    },
+    {
+        title: "No Hidden Fees",
+        icon: "NO_HIDDEN"
+    },
+];
