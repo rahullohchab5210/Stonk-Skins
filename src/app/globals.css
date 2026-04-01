@@ -12,3 +12,12 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.bg-img {
+    background: url('/assets/images/png/ellipse.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+}
