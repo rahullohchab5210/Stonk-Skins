@@ -42,10 +42,10 @@ function Navbar() {
                             </button>
                         </div>
                     </div>
-                    <div className={`z-60 flex  flex-row items-center max-lg:flex-col max-lg:gap-4 gap-16 max-lg:flex-col  max-lg:pt-20 max-[1024px]:fixed max-[1024px]:bg-[#432755]    max-[1024px]:h-screen max-[1024px]:w-1/2 max-sm:w-full max-sm:justify-center max-[1024px]:top-0 max-[1024px]:transition-all max-[1024px]:duration-300 max-[1024px]:ease-linear ${menuOpen === "show" ? "max-[1024px]:right-0" : "max-[1024px]:-right-full"}`}>
+                    <div className={`z-60 flex  flex-row max-lg:px-5 max-sm:px-10 lg:items-center  max-lg:flex-col max-lg:gap-4 gap-16 max-lg:flex-col  max-lg:pt-20 max-[1024px]:fixed max-[1024px]:bg-[#432755]    max-[1024px]:h-screen max-[1024px]:w-1/2 max-sm:w-full max-sm: max-[1024px]:top-0 max-[1024px]:transition-all max-[1024px]:duration-300 max-[1024px]:ease-linear ${menuOpen === "show" ? "max-[1024px]:right-0" : "max-[1024px]:-right-full"}`}>
                         <span className='font-medium text-[16px] leading-[125%] tracking-[0.6%] text-[#F5F5F5] font-dm'>Market</span>
                         <div>
-                            <div className='flex items-center max-lg:flex-col max-lg:gap-4 gap-8'>
+                            <div className='flex lg:items-center  max-lg:flex-col max-lg:gap-4 gap-8'>
                                 <div className='flex flex-row items-center gap-2'>
                                     <Icons icon={'WALLET'} />
                                     <span className='text-[#F5F5F5] font-bold text-[16px] leading-[150%] tracking-[0%]'>$0</span>
