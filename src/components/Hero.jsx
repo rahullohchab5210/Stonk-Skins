@@ -5,8 +5,8 @@ import Icons from './common/Icons'
 
 function Hero() {
   return (
-    <div className="sm:bg-[url('/assets/images/png/hero-bg.png')] bg-[url('/assets/images/png/sm-hero-bg.png')] bg-cover md:bg-center bg-no-repeat bg-[80%] h-full sm:min-h-[813px] relative">
-      <div className='max-w-287 mx-auto px-1.5 md:pt-[63px] pt-37.5 '>
+    <div className="sm:bg-[url('/assets/images/png/hero-bg.png')] bg-[url('/assets/images/png/sm-hero-bg.png')] bg-cover md:bg-center bg-no-repeat bg-[80%] h-full sm:min-h-[805px] relative">
+      <div className='max-w-287 mx-auto px-1.5 md:pt-[252px] pt-37.5 '>
         <div >
           <h1 className='max-w-[730px] max-sm:px-5 px-4 font-poppins font-medium text-[64px] max-md:text-5xl max-sm:text-4xl leading-[118%] tracking-[-6%] text-white'>The Ultimate <span className='text-[#E9AE82]'>CS 2 Marketplace</span> for Gamers Who Mean Business</h1>
           <p className='pt-3.25 max-sm:px-5 px-4 pb-10.25 font-medium text-[16px] leading-[125%] trracking-[-0.6%] font-poppins text-[#F5F5F5]'>Buy, sell, and trade skins securely with unbeatable prices and transparency</p>

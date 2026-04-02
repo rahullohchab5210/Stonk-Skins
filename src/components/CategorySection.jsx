@@ -4,7 +4,7 @@ import { Sections } from "@/utils/helper";
 
 const CategorySection = () => {
     return (
-        <div className=" category-img flex flex-col gap-[32px] sm:gap-[53px] min-h-[2000px]">
+        <div className=" category-img flex flex-col gap-[32px] sm:gap-[53px] min-h-[1980px]">
             {Sections.map((item, index) => (
                 <Slider
                     key={index}
