@@ -11,10 +11,10 @@ function Testimonials() {
         <div className="bg-[url('/assets/images/png/testimonials-bg.png')] bg-cover bg-center  pt-[167px] bg-[#220933]/90 w-full h-full">
 
             {/* HEADING + ARROWS */}
-            <div className="flex items-center max-w-287 mx-auto justify-between mb-7.75 max-[1200px]:px-3  ">
-                <h3 className="text-white text-3xl md:text-4xl lg:text-5xl">Testimonials</h3>
+            <div className="flex items-center max-w-287 mx-auto justify-between mb-7.75 max-[1200px]:px-3  max-sm:px-5.5 ">
+                <h3 className="text-white  text-[40px] lg:text-5xl">Testimonials</h3>
 
-                <div className="hidden min-[450px]:block">
+                <div className="hidden min-sm:block">
                     <div className="grid grid-cols-2 gap-3">
                         <button className="swiper-button-prev-test bg-[#220933]/95 rounded-[19px] w-14 h-14 flex items-center justify-center bg-[url('/assets/images/png/slider-arrow-bg.png')] bg-cover rotate-180 cursor-pointer hover:scale-107 transition-all duration-300">
                             <Icons icon={"SLIDER_ARROW"} />
@@ -27,11 +27,11 @@ function Testimonials() {
                 </div>
             </div>
 
-            <div className="max-w-[1460px]   min-[1200px]:pl-[140px] max-[1200px]:px-3 overflow-hidden  mx-auto">
-                <div className="flex max-sm:flex-col gap-[21px]">
+            <div className="max-w-[1460px]   min-[1200px]:pl-[140px] max-[1200px]:pl-3 overflow-hidden  mx-auto">
+                <div className="flex max-sm:flex-col sm:gap-[21px] max-sm:gap-y-8.25">
 
                     {/* LEFT STATIC FIXED CARD (NO SLIDE) */}
-                    <div className="bg-[url('/assets/images/png/testimonial-card-bg.png')] bg-cover bg-center w-[271px] h-[366px] pt-[50.5px] shrink-0">
+                    <div className="bg-[url('/assets/images/png/testimonial-card-bg.png')] bg-cover bg-center sm:max-w-[271px] max-w-full max-sm:mr-10 max-sm:ml-7 max-sm:rounded-3xl max-sm:pr-4 h-[366px] pt-[50.5px] shrink-0">
                         <div className='flex flex-col items-center'>
                             <div className='flex flex-col items-center gap-2.75'>
                                 <h6 className='font-medium text-[32px] text-white font-poppins'>Excellent</h6>
