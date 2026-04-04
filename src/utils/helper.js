@@ -93,3 +93,63 @@ export const Sections = [
     { title: "Category Name", className: "lg:right-36.5" },
     { title: "Category Name", className: "" },
 ];
+
+
+export const HOW_ITS_WORK_DATA = [
+    {
+        number: "01",
+        title: "Deposit Your Skins",
+        description:`Add your CS 2 skins to the  marketplace in seconds.`
+    },
+    {
+        number: "02",
+        title: "Set Your Price",
+        description: "Choose your listing price or let us recommend market rates."
+    },
+    {
+        number: "03",
+        title: "Step 3",
+        description: "Receive instant payouts in your preferred method."
+    },
+];
+
+
+
+export const TESTIMONIALS_DATA = [
+    {
+        date: "2 days ago",
+        title: "Best on the market",
+        description: "Lorem ipsum dolor sit amet consectetur. Sed nunc sem sed.",
+        name:"John Doe",
+    },
+    {
+        date: "2 days ago",
+        title: "Best on the market",
+        description: "Lorem ipsum dolor sit amet consectetur. Sed nunc sem sed.",
+        name: "John Doe",
+    },
+    {
+        date: "2 days ago",
+        title: "Best on the market",
+        description: "Lorem ipsum dolor sit amet consectetur. Sed nunc sem sed.",
+        name: "John Doe",
+    },
+    {
+        date: "2 days ago",
+        title: "Best on the market",
+        description: "Lorem ipsum dolor sit amet consectetur. Sed nunc sem sed.",
+        name: "John Doe",
+    },
+    {
+        date: "2 days ago",
+        title: "Best on the market",
+        description: "Lorem ipsum dolor sit amet consectetur. Sed nunc sem sed.",
+        name: "John Doe",
+    },
+    {
+        date: "2 days ago",
+        title: "Best on the market",
+        description: "Lorem ipsum dolor sit amet consectetur. Sed nunc sem sed.",
+        name: "John Doe",
+    },
+];

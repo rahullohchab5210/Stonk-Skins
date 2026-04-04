@@ -75,9 +75,15 @@ body {
 
 /* Shift slick track from left safely */
  .category-img {
-     background: url('/assets/images/png/slider-bg-bg.png');
+     background: url('/assets/images/png/slider-bg.png');
      background-size: cover;
-     background-position: center;
+     background-position: 21%;
      background-repeat: no-repeat;
      position: relative;
+ }
+
+ @media  (min-width:624px) {
+    .category-img{
+        background-position: center;
+    }
  }
