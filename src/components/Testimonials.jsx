@@ -11,7 +11,7 @@ function Testimonials() {
         <div className="bg-[url('/assets/images/png/testimonials-bg.png')] bg-cover bg-center  pt-[167px] bg-[#220933]/90 w-full h-full">
 
             {/* HEADING + ARROWS */}
-            <div className="flex items-center max-w-287 mx-auto justify-between mb-7.75 px-3">
+            <div className="flex items-center max-w-287 mx-auto justify-between mb-7.75 max-[1200px]:px-3  ">
                 <h3 className="text-white text-3xl md:text-4xl lg:text-5xl">Testimonials</h3>
 
                 <div className="hidden min-[450px]:block">
@@ -27,7 +27,7 @@ function Testimonials() {
                 </div>
             </div>
 
-            <div className="max-w-[1275px]  lg:translate-x-[71.5px] px-3 mx-auto">
+            <div className="max-w-[1460px]   min-[1200px]:pl-[140px] max-[1200px]:px-3 overflow-hidden  mx-auto">
                 <div className="flex max-sm:flex-col gap-[21px]">
 
                     {/* LEFT STATIC FIXED CARD (NO SLIDE) */}
