@@ -160,16 +160,16 @@ export const TESTIMONIALS_DATA = [
 
 export const SOCIAL_MEDIA_DATA = [
     {
-        link: "FACEBOOK", url:"https://www.facebook.com/"
+        link: "FACEBOOK", url:"https://www.facebook.com/", label:"Facebook"
     },
     {
-        link: "TWITTER", url:"https://x.com/?lang=en-in"
+        link: "TWITTER", url:"https://x.com/?lang=en-in", label:"Twitter"
     },
     {
-        link: "YOUTUBE", url:"https://www.youtube.com/"
+        link: "YOUTUBE", url:"https://www.youtube.com/", label:"Youtube"
     },
     {
-        link: "LINKEDIN", url:"https://in.linkedin.com/"
+        link: "LINKEDIN", url:"https://in.linkedin.com/", label:"Linkedin"
     },
 ];
 

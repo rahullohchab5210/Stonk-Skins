@@ -35,7 +35,7 @@ function Testimonials() {
                     <div className="bg-[url('/assets/images/png/testimonial-card-bg.png')] bg-cover bg-center sm:w-[271px] w-full  max-sm:ml-5 max-sm:rounded-3xl    h-[366px] pt-[50.5px] sm:shrink-0">
                         <div className='flex flex-col items-center'>
                             <div className='flex flex-col items-center gap-2.75'>
-                                <h6 className='font-medium text-[32px] text-white font-poppins'>Excellent</h6>
+                                <h5 className='font-medium text-[32px] text-white font-poppins'>Excellent</h5>
                                     <img src="/assets/images/png/icon-w.png" alt="image" loading="lazy" className='w-[107px] h-[104px]' />
                                 <Icons icon={"BIG_STAR"} />
                             </div>

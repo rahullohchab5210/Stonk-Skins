@@ -26,6 +26,7 @@ const Slider = ({ className, title, reverse }) => {
 
                             {/* LEFT BUTTON */}
                             <button
+                                aria-label="Previous Slide"
                                 ref={prevRef}
                                 className="cursor-pointer bg-[#220933]/95 rounded-[19px] w-14 h-14 flex items-center justify-center bg-[url('/assets/images/png/slider-arrow-bg.png')] bg-cover rotate-180"
                             >
@@ -34,6 +35,7 @@ const Slider = ({ className, title, reverse }) => {
 
                             {/* RIGHT BUTTON */}
                             <button
+                                aria-label="Next Slide"
                                 ref={nextRef}
                                 className="cursor-pointer bg-[#220933]/95 rounded-[19px] w-14 h-14 flex items-center justify-center bg-[url('/assets/images/png/slider-arrow-bg.png')] bg-cover"
                             >

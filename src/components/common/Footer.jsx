@@ -13,7 +13,7 @@ function Footer() {
             <p className='py-5 font-medium text-base leading-[20px] tracking-[-0.6%] text-[#F5F5F5] font-dm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget lorem.</p>
             <div className='flex flex-row items-center gap-3'>
               {SOCIAL_MEDIA_DATA.map((item, i) => {
-                return <a key={i} href={item.url} target="_blank" className="h-8 w-8 rounded-full bg-linear-to-r from-[#e9ad83] to-[#9b1fe8] flex justify-center items-center hover:scale-110 transition-all duration-300">
+                return <a key={i} href={item.url} aria-label={item.label} target="_blank" className="h-8 w-8 rounded-full bg-linear-to-r from-[#e9ad83] to-[#9b1fe8] flex justify-center items-center hover:scale-110 transition-all duration-300">
                   <Icons icon={item.link} />
                 </a>
               })}
@@ -51,6 +51,7 @@ function Footer() {
 
                   <button
                     type="submit"
+                    aria-label="Send Message"
                     className="flex items-center justify-center bg-[#FFFFFF0F]/6 h-13 w-13 rounded-[500px] cursor-pointer"
                   >
                     <svg width="22.72" height="16.88" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
