@@ -4,8 +4,7 @@ import Button from './common/Button'
 
 function HowItWorks() {
     return (
-        <div className=" bg-[url('/assets/images/png/how-works-bg.png')]  bg-cover bg-center bg-no-repeat pt-[100px] sm:pt-[169px] sm:pb-[227px] pb-[93px] h-full relative">
-            
+        <div className=" bg-[url('/assets/images/png/how-works-bg.png')]  bg-cover bg-center bg-no-repeat pt-6.25 sm:pt-[100px] md:pt-[169px] md:pb-[227px] sm:pb-[100px] pb-7.5 h-full relative">
             <div className='max-w-285 mx-auto px-3 relative'>
                 <div className="max-[664px]:hidden absolute z-1 top-[113px] left-1/2 -translate-x-1/2 w-[70%] max-[984px]:w-[35%]  border-t border-dashed border-white/30"></div>
                 <h3 className='sm:pb-5.5 max-sm:pb-[48px] font-medium sm:text-5xl text-[40px] leading-[118%] tracking-[-6%] text-white text-center font-poppins'>How It Works</h3>

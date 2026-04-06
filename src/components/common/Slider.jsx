@@ -88,6 +88,7 @@ const Slider = ({ className, title, reverse }) => {
                                     <Image
                                         src={item.image}
                                         alt="product"
+                                        loading="lazy"
                                         width={317}
                                         height={91}
                                     />

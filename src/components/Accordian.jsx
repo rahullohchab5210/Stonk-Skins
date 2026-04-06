@@ -12,12 +12,12 @@ const Accordian = () => {
     };
 
     return (
-        <div className="w-full   relative px-4 md:pt-[173px] sm:pt-[100px] pt-[70px] bg-cover bg-center  ">
+        <div className="w-full   relative px-4 md:pt-[173px] sm:pt-[100px] pt-[85px] bg-cover bg-center  ">
             <div className="max-w-287 w-full mx-auto flex flex-col gap-8 md:gap-0 md:flex-row text-white">
 
                 {/* LEFT TEXT */}
                 <div className="flex flex-col max-w-64.5 md:max-w-97.25 w-full space-y-3">
-                    <h3 className="font-medium text-5xl leading-[118%] tracking-[-6%]">
+                    <h3 className="font-medium sm:text-5xl text-[40px] leading-[118%] tracking-[-6%]">
                         Any Questions? Look Here
                     </h3>
                     <span className="tracking-[-0.6%] leading-[125%] font-dm font-medium z-20 text-[#F5F5F5]">

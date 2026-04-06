@@ -3,7 +3,7 @@ import Button from './common/Button'
 
 function LoginSteam() {
   return (
-      <div className='  h-full w-full sm:pt-[233px] pt-[70px] '>
+      <div className='h-full w-full sm:pt-[233px] pt-[85px] '>
           <div className='max-w-287 mx-auto max-[1200px]:px-4'>
               <div className="bg-[url('/assets/images/png/login-steam-bg.png')] bg-cover bg-center h-full w-full rounded-3xl">
                   <div className='flex flex-col items-center sm:pt-9.5 pt-10.5 sm:pb-9.5 pb-10.5 max-[370px]:px-1'> 

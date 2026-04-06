@@ -25,7 +25,7 @@ function GunsSection() {
                                     <div className={`w-[115.2px] h-[73.14px] flex items-center justify-center backdrop-blur-[45.71px] 
                                         rounded-[14.63px] shadow-[10px_10px_30px_0px_rgba(0,0,0,0.6)] bg-[#1C0829]
                                     `}>
-                                        <img src={item.img} alt="image" />
+                                        <img src={item.img} alt="image" loading="lazy" />
                                     </div>
 
                                     <div className='flex flex-col'>

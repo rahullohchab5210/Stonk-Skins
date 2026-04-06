@@ -30,7 +30,7 @@ function Navbar() {
             <div className='max-w-287 mx-auto max-[1200px]:px-4 w-full '>
                 <div className='flex flex-rowe items-center justify-between pb-4 pt-3 w-full '>
                     <div className='flex flex-row items-center gap-7.75 w-full  '>
-                        <a href="#"> <img src="/assets/images/png/logo.png" alt="logo" className='max-w-29 max-h-13.7 max-sm:z-999 flex' /></a>
+                        <a href="#"> <img src="/assets/images/png/logo.png" loading="lazy" alt="logo" className='max-w-29 max-h-13.7 max-sm:z-999 flex' /></a>
                         <div className="flex items-center backgroung-img max-w-[275px] w-full h-13 max-lg:hidden">
                             <input
                                 type="text"
@@ -63,7 +63,7 @@ function Navbar() {
                         </div>
                     </div>
                     <div className="flex items-center  px-4 gap-[28px] w-full lg:hidden bg-[url('/assets/images/png/ellipse-three.png')] w-full max-w-[103px] h-[52px] bg-cover bg-center bg-no-repeat z-999">
-                        <button className="flex items-center   z-999 bg-[#FFFFFF0F]/6 rounded-[500px]">
+                        <button onClick={() => setMenuOpen(false)} className="flex items-center   z-999 bg-[#FFFFFF0F]/6 rounded-[500px]">
                             <Icons icon={"SEARCH"} />
                         </button>
                         <button onClick={() => setMenuOpen(menuOpen === "show" ? null : "show")} className="lg:hidden flex flex-col gap-1.5 w-10 h-10 justify-center items-center z-999 cursor-pointer">

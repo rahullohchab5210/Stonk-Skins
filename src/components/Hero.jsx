@@ -25,12 +25,6 @@ function Hero() {
           </div>
         </div>
       </div>
-      {/* <div className='absolute top-[468px] right-0'>
-        <img src="/assets/images/png/hero-lines-ellipse.png" alt="lines-image" />
-      </div>
-      <div className='absolute left-0 top-[203px]'>
-        <img src="/assets/images/svg/two-lines.svg" alt="image" />
-      </div> */}
     </div>
   )
 }

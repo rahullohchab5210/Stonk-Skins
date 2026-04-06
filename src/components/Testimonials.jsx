@@ -8,7 +8,7 @@ import { Navigation } from "swiper/modules";
 
 function Testimonials() {
     return (
-        <div className="  bg-cover bg-center  pt-[63px]   w-full h-full">
+        <div className="  bg-cover bg-center  sm:pt-[63px] pt-12.5   w-full h-full">
 
             {/* HEADING + ARROWS */}
             <div className="flex items-center max-w-287 mx-auto justify-between mb-7.75 max-[1200px]:px-3  max-sm:px-5.5 ">
@@ -36,7 +36,7 @@ function Testimonials() {
                         <div className='flex flex-col items-center'>
                             <div className='flex flex-col items-center gap-2.75'>
                                 <h6 className='font-medium text-[32px] text-white font-poppins'>Excellent</h6>
-                                <img src="/assets/images/png/icon-w.png" className='w-[107px] h-[104px]' />
+                                    <img src="/assets/images/png/icon-w.png" alt="image" loading="lazy" className='w-[107px] h-[104px]' />
                                 <Icons icon={"BIG_STAR"} />
                             </div>
                             <p className='pt-2 pb-2 font-medium text-base text-[#F5F5F5] max-w-full sm:max-w-[271px]'>

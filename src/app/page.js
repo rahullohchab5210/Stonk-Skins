@@ -18,7 +18,7 @@ export default function Home() {
       <HowItWorks />
       <Testimonials />
       <div className="relative w-full"> 
-        <img src="/assets/images/png/shine-ellipses.png" alt="image" className="absolute top-[38%]"/>
+        <img src="/assets/images/png/shine-ellipses.png" alt="image" loading="lazy" className="absolute top-[38%]"/>
       <Accordian />
         <LoginSteam />
       </div>
