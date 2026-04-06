@@ -8,7 +8,7 @@ import { Navigation } from "swiper/modules";
 
 function Testimonials() {
     return (
-        <div className="bg-[url('/assets/images/png/testimonials-bg.png')] bg-cover bg-center pb-25 pt-[167px] bg-[#220933]/90 w-full h-full">
+        <div className="  bg-cover bg-center  pt-[63px]   w-full h-full">
 
             {/* HEADING + ARROWS */}
             <div className="flex items-center max-w-287 mx-auto justify-between mb-7.75 max-[1200px]:px-3  max-sm:px-5.5 ">
@@ -76,7 +76,12 @@ function Testimonials() {
                                         {item.description}
                                     </p>
 
-                                    <h6 className='font-bold sm:text-xl text-[18px] text-[#F5F5F5]'>{item.name}</h6>
+                                    <h6 className='font-bold sm:text-xl text-[18px] text-[#F5F5F5] relative'>{item.name}
+                                        <span className="absolute -top-2 left-0"><svg width="60" height="1" viewBox="0 0 60 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="60" height="1" fill="white" fill-opacity="0.14" />
+                                        </svg>
+</span>
+                                    </h6>
                                 </div>
                             </SwiperSlide>
                         ))}

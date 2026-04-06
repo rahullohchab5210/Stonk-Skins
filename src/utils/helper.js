@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const CATEGORY_DATA =
 {
     title: 'Category',
@@ -76,7 +78,7 @@ export const RECTANGLE_HERO_DATA = [
     },
 ];
 
- 
+
 export const Products = [
     { id: 1, image: "/assets/images/png/gun-image-one.png", title: "Product Name", description: "Lorem ipsum dolor sit", suggeste_price: " Suggested Price $687.58", price: "$528.69", off: "-20%" },
     { id: 2, image: "/assets/images/png/gun-image-two.png", title: "Product Name", description: "Lorem ipsum dolor sit", suggeste_price: " Suggested Price $687.58", price: "$528.69", off: "-20%" },
@@ -99,7 +101,7 @@ export const HOW_ITS_WORK_DATA = [
     {
         number: "01",
         title: "Deposit Your Skins",
-        description:`Add your CS 2 skins to the  marketplace in seconds.`
+        description: `Add your CS 2 skins to the  marketplace in seconds.`
     },
     {
         number: "02",
@@ -120,7 +122,7 @@ export const TESTIMONIALS_DATA = [
         date: "2 days ago",
         title: "Best on the market",
         description: "Lorem ipsum dolor sit amet consectetur. Sed nunc sem sed.",
-        name:"John Doe",
+        name: "John Doe",
     },
     {
         date: "2 days ago",
@@ -153,3 +155,84 @@ export const TESTIMONIALS_DATA = [
         name: "John Doe",
     },
 ];
+
+
+
+export const SOCIAL_MEDIA_DATA = [
+    {
+        link: "FACEBOOK", url:"https://www.facebook.com/"
+    },
+    {
+        link: "TWITTER", url:"https://x.com/?lang=en-in"
+    },
+    {
+        link: "YOUTUBE", url:"https://www.youtube.com/"
+    },
+    {
+        link: "LINKEDIN", url:"https://in.linkedin.com/"
+    },
+];
+
+
+ 
+export const USEFUL_LINKS = [
+    [
+        "Legal & Privacy",
+        "Contact",
+        "Gift Card",
+        "Customer Service",
+    ],
+    [
+        "FAQ",
+        "Support",
+        "Terms of service",
+        "Privacy",
+    ],
+];
+
+
+
+
+
+
+
+
+export const ACCORDIAN_DATA = [
+    {
+        title: "Nunc pellentesque consectetur",
+        description:
+            "Lorem ipsum dolor sit amet consectetur. Cursus habitant ornare pellentesque egestas. Consectetur blandit justo bibendum quam. Pharetra nulla tortor viverra hendrerit ipsum donec eget venenatis. Lobortis nec augue et sed ut. Blandit convallis eget laoreet urna. A tristique vitae arcu augue mauris vel lacus proin. Tincidunt dui velit faucibus magna nunc porta amet sed. Ornare amet sagittis ut amet facilisis lectus. Amet eu a urna erat hac.",
+    },
+    {
+        title: "In donec in tristique integer",
+        description:
+            "Lorem ipsum dolor sit amet consectetur. Cursus habitant ornare pellentesque egestas. Consectetur blandit justo bibendum quam. Pharetra nulla tortor viverra hendrerit ipsum donec eget venenatis. Lobortis nec augue et sed ut. Blandit convallis eget laoreet urna. A tristique vitae arcu augue mauris vel lacus proin. Tincidunt dui velit faucibus magna nunc porta amet sed. Ornare amet sagittis ut amet facilisis lectus. Amet eu a urna erat hac.",
+    },
+    {
+        title: "Nunc porta pellentesque",
+        description:
+            "Lorem ipsum dolor sit amet consectetur. Cursus habitant ornare pellentesque egestas. Consectetur blandit justo bibendum quam. Pharetra nulla tortor viverra hendrerit ipsum donec eget venenatis. Lobortis nec augue et sed ut. Blandit convallis eget laoreet urna. A tristique vitae arcu augue mauris vel lacus proin. Tincidunt dui velit faucibus magna nunc porta amet sed. Ornare amet sagittis ut amet facilisis lectus. Amet eu a urna erat hac.",
+    },
+    {
+        title: "Aliquam mauris tempus ullamcorper",
+        description:
+            "Lorem ipsum dolor sit amet consectetur. Cursus habitant ornare pellentesque egestas. Consectetur blandit justo bibendum quam. Pharetra nulla tortor viverra hendrerit ipsum donec eget venenatis. Lobortis nec augue et sed ut. Blandit convallis eget laoreet urna. A tristique vitae arcu augue mauris vel lacus proin. Tincidunt dui velit faucibus magna nunc porta amet sed. Ornare amet sagittis ut amet facilisis lectus. Amet eu a urna erat hac.",
+    },
+];
+
+
+export const PAYMENT_TEXT_DATA = [
+    "Payment",
+    "Gift Cards",
+    "Privacy Policy",
+    "Stockists"
+];
+
+export const PAYMENT_ICONS_DATA = [
+    "PAYPAL",
+    "VISA",
+    "MASTERCARD",
+    "AMERICAN_EXPRESS",
+    "DISCOVER"
+];
+
